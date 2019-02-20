@@ -1,7 +1,15 @@
 {
   "name": "use-connect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "replacement of react-redux.connect",
+  "keywords": [
+    "react",
+    "redux",
+    "hooks"
+  ],
+  "repository": "github:dancerphil/use-connect",
+  "license": "MIT",
+  "author": "Cong Zhang <dancerphil1994@gmail.com>",
   "main": "./lib/index.js",
   "scripts": {
     "build": "rm -rf lib/ && babel src --out-dir lib",
@@ -11,13 +19,6 @@
     "prepublish": "npm run check",
     "test": "jest src --colors --coverage"
   },
-  "keywords": [
-    "react",
-    "redux",
-    "hooks"
-  ],
-  "author": "",
-  "license": "MIT",
   "husky": {
     "hooks": {
       "pre-commit": "npm run check"
