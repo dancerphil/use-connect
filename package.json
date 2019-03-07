@@ -1,6 +1,6 @@
 {
   "name": "use-connect",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "replacement of react-redux.connect",
   "keywords": [
     "react",
